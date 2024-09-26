@@ -4,6 +4,16 @@ import java.util.HashMap;
 
 public class constructTreeFromInorderAndPreorder {
 
+    public static class Node{
+        int data;
+        Node left;
+        Node right;
+
+        public Node(int data){
+            this.data = data;
+        }
+    }
+
     public static Node buildTree(int inorder[], int preorder[], int n)
     {
         // code here

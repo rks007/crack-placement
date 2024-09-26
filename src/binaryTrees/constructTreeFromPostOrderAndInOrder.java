@@ -3,6 +3,15 @@ package binaryTrees;
 import java.util.HashMap;
 
 public class constructTreeFromPostOrderAndInOrder {
+    public static class Node{
+        int data;
+        Node left;
+        Node right;
+
+        public Node(int data){
+            this.data = data;
+        }
+    }
 
     Node buildTree(int n, int in[], int post[]) {
         // Your code here
