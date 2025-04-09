@@ -13,7 +13,7 @@ public class sortArrayRecursion {
        System.out.println(arr);
     }
 
-    private static void recursionSort(ArrayList<Integer> arr) {
+    private static void recursionSort(ArrayList<Integer> arr) { //dry run
         if(arr.size() == 1){
             return;
         }
@@ -22,7 +22,7 @@ public class sortArrayRecursion {
         insert(arr, element);
     }
 
-    private static void insert(ArrayList<Integer> arr, int element) {
+    private static void insert(ArrayList<Integer> arr, int element) { //dry run
         if(arr.size() == 0 || arr.get(arr.size() - 1) <= element){
             arr.add(element);
             return;
