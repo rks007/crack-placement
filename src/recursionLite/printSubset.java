@@ -2,7 +2,7 @@ package recursionLite;
 
 import java.util.ArrayList;
 
-public class printSubsequences {
+public class printSubset {
     public static void main(String[] args) {
         String str = "abc";
         StringBuilder input = new StringBuilder(str);
