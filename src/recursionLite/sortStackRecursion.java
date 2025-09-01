@@ -4,9 +4,6 @@ import java.util.Stack;
 
 public class sortStackRecursion {
 
-
-    import java.util.* ;
-import java.io.*;
     public class Solution {
 
         public static void sortStack(Stack<Integer> stack) {
