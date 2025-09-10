@@ -1,8 +1,7 @@
 package strings;
 
 public class reverseWordInAString {
-    public static void main(String[] args) { //leetcode 151
-
+    public String reverseWords(String s) { //leetcode 151
         StringBuilder str = new StringBuilder(s);
 
         str.reverse();
@@ -27,5 +26,7 @@ public class reverseWordInAString {
         }
 
         return ans.substring(1).toString();
+
+
     }
 }
